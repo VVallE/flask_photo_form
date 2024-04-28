@@ -8,6 +8,7 @@ app.config['SECRET_KEY'] = os.urandom(30)
 
 
 class MyForm(FlaskForm):
+
     photo = FileField('Photo')
 
 
